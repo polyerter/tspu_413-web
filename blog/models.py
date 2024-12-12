@@ -28,4 +28,4 @@ class Category(models.Model):
     )
     
     def __str__(self):
-        return f'Категория: \'{self.name}\''
+        return f': \'{self.name}\''
